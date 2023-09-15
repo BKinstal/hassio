@@ -25,6 +25,7 @@ home-assistant.*
 home-assistant_v2.*
 .HA_VERSION
 
+sync_git.sh
 sync.sh 
 automations.yaml
 configuration.yaml
