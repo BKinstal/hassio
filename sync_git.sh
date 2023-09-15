@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nastavte cestu k vašemu repozitáři
-REPO_PATH="/config/sync_private"
+REPO_PATH="/root/config"
 
 cd $REPO_PATH
 
