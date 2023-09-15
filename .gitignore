@@ -20,9 +20,10 @@ __pycache__
 .ssh
 .storage
 *.db-shm
-home-assistant.env
+home-assistant.
 home-assistant.*
-home-assistant_v2.db-wal
+home-assistant_v2.*
+.HA_VERSION
 
 sync.sh 
 automations.yaml
