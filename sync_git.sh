@@ -13,6 +13,3 @@ git fetch origin
 
 # Resetujeme lokální master větev na vzdálenou master větev
 git reset --hard origin/master
-
-# Odešleme všechny lokální změny (pokud existují) na vzdálený repozitář
-git push origin master
