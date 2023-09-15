@@ -17,8 +17,9 @@ __pycache__
 *.xml
 *.backup
 *.json
-
+.ssh
 .storage
+*.db-shm
 home-assistant.env
 home-assistant.*
 home-assistant_v2.db-wal
