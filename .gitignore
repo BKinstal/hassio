@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+# Python cache
+__pycache__
+*.pyc
+
+# Other
+*.uuid
+*.conf
+*.db
+*.db-journal
+*.log
+*.noload
+*.txt
+*.sqlite
+*.xml
+*.backup
+*.json
+
+.storage
+home-assistant.env
+home-assistant.*
+home-assistant_v2.db-wal
+
+sync.sh 
+automations.yaml
+configuration.yaml
+scenes.yaml
+scripts.yaml
+secrets.yaml
+themes
+
+blueprints
+githubconf
+tts
+custom_components/hacs
+downloads
+node-red
