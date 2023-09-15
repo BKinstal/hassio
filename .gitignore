@@ -1,42 +1,6 @@
-# Logs
-logs
-*.log
-# Python cache
-__pycache__
-*.pyc
-.HA_VERSION
-# Other
-*.uuid
-*.conf
-*.db
-*.db-journal
-*.log
-*.noload
-*.txt
-*.sqlite
-*.xml
-*.backup
-*.json
-.ssh
-.storage
-*.db-shm
-home-assistant.
-home-assistant.*
-home-assistant_v2.*
-.HA_VERSION
+# Ignoruj vše
+*
 
-sync_git.sh
-sync.sh 
-automations.yaml
-configuration.yaml
-scenes.yaml
-scripts.yaml
-secrets.yaml
-themes
-.git
-blueprints
-githubconf
-tts
-custom_components/hacs
-downloads
-node-red
+# Ale umožňuj explicitní přidání souborů/složek
+!*/
+!.gitignore
