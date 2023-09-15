@@ -6,7 +6,7 @@ REPO_PATH="/root/config"
 cd $REPO_PATH
 
 # Nastavíme GIT_SSH_COMMAND pro specifikaci klíče (pokud je potřeba)
-export GIT_SSH_COMMAND="ssh -i /root/config/.ssh/id_rsa -o StrictHostKeyChecking=no"
+#export GIT_SSH_COMMAND="ssh -i /root/config/.ssh/id_rsa -o StrictHostKeyChecking=no"
 
 # Zajistíme, že pracujeme s master větví
 git checkout main
